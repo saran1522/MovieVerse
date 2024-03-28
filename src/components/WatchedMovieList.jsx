@@ -1,10 +1,9 @@
 export default function WatchedMovieList({
   watchedMovies,
-  currentId,
   handleCurrentId,
   removeWatched,
 }) {
-  const watchedList = watchedMovies.map((movie) => {
+  const watchedList = watchedMovies?.map((movie) => {
     return (
       <div
         className="watched-movie"
