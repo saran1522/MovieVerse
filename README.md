@@ -1,8 +1,6 @@
-# React + Vite
+# MovieVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This web app offers an enriching experience for movie enthusiasts to explore, engage, and curate their cinematic
+journey. In this application, users can search for their preferred movies, and access comprehensive details such as
+ratings, plot summaries, cast information, and more. Furthermore, users can rate movies, create personalized playlists,
+add & remove movies from it, and manage their cinematic preferences.
