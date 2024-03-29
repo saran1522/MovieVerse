@@ -39,7 +39,7 @@ export default function MovieDetails({
         setLoading(true);
         setError("");
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${key}&i=${currentId}`
+          `https://www.omdbapi.com/?apikey=${key}&i=${currentId}`
         );
         if (!res.ok) throw new Error("Something went very wrong");
         const data = await res.json();
