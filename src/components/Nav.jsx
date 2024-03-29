@@ -22,7 +22,7 @@ export default function Nav({ movies, search, setSearch }) {
           src="https://img.icons8.com/?size=512&id=SPIi4dtQGDLy&format=png"
           alt=""
         />
-        <p className="logoText">MovieMasala</p>
+        <p className="logoText">MoviesVerse</p>
       </div>
       <div className="search">
         <input
@@ -34,7 +34,7 @@ export default function Nav({ movies, search, setSearch }) {
           ref={inputEl}
         />
       </div>
-      <div className="results">found {movies.length} results</div>
+      <div className="results">found {movies?.length} results</div>
     </nav>
   );
 }
