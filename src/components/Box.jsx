@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Watched from "./WatchedStats";
 
 export default function Box({ children }) {
   const [isOpen, setIsOpen] = useState(true);

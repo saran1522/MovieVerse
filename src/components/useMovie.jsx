@@ -21,11 +21,13 @@ export function useMovie(search) {
 
         const data = await res.json();
         if (data.Response === "False") throw new Error(data.Error);
+        console.log(data.Error);
 
         setMoveis(data.Search);
         setError("");
       } catch (err) {
         if (err.name !== "AbortError") setError(err.message);
+        console.log(err);
       } finally {
         setLoading(false);
       }
@@ -35,7 +37,6 @@ export function useMovie(search) {
       setError("");
       return;
     }
-    // setCurrentId(null);
     fetchMovies();
 
     //cleaning up fetch on unmount or before next fetch

@@ -1,5 +1,5 @@
 export default function SearchList({ movies, handleCurrentId }) {
-  const allMovies = movies?.map((movie) => {
+  const allMovies = movies.map((movie) => {
     return (
       <div
         key={movie.imdbID}
